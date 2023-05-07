@@ -1,7 +1,7 @@
 {
-  "name": "node-typescript-boilerplate",
+  "name": "process-gpt",
   "version": "0.0.0",
-  "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript.",
+  "description": "Process GPT is an open-source experimental application that helps with automation of recurring real-life processes.",
   "type": "module",
   "engines": {
     "node": ">= 18.12 <19"
@@ -35,7 +35,7 @@
     "prettier": "prettier --config .prettierrc --write .",
     "test:watch": "jest --watch"
   },
-  "author": "Jakub Synowiec <jsynowiec@users.noreply.github.com>",
+  "author": "Filip Balada",
   "license": "Apache-2.0",
   "dependencies": {
     "axios": "^1.4.0",
