@@ -1,13 +1,16 @@
 # Process GPT
-Let's help people automate boring processes with AI.
+Process GPT is an open-source experimental application that helps with automation of recurring real-life processes. 
 
-## Human
+With the help of AI, the program can perform tasks that were previously only possible for humans, such as understanding message intent or parsing data from text to pass it on to other programs. 
+
+## Classes
+### Human
 A human is an abstract of a worker capable to predict a completion according to the given examples of knowledge and related outcome.
 
-## Agent
+### Agent
 An agent is a worker with skills such as text comprehension, content parsing, and more. The skills are implemented using AI. 
 
-## Agent – Cancel Order With ID
+### Agent – Cancel Order With ID
 As a customer support agent at an ecommerce store, I frequently handle order cancellation requests manually. Automating this process allows me to focus on customers who require special attention, which can enhance their overall experience (CX) and create more sales opportunities.
 
 The agent is dedicated to receiving a text and determining whether it is a request for order cancellation.
@@ -20,5 +23,5 @@ The agent is dedicated to receiving a text and determining whether it is a reque
 - If the callback function returns false, then the agent will respond that the order wasn't resolved. 
 – If the callback function returns true, then the agent will respond that the order was resolved. 
 
-### Improvements / Ideas
+Improvements / Ideas
 - To make the agent's response more personalized to the situation, consider extending the callback function to include the reasons for order cancellation.
